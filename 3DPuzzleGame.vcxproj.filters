@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{5de5e8b5-39ec-4762-b45d-1cdff34db6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Play State">
+      <UniqueIdentifier>{6e2e2a83-a2d0-4d97-bfb5-3c68fcc535e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Play State\Bricks">
+      <UniqueIdentifier>{0f0910da-be7d-45d4-9357-b516da6653df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Other">
+      <UniqueIdentifier>{eeced65c-ee3e-472f-ac0c-b871961aa020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Menu State">
+      <UniqueIdentifier>{7e7b1c27-17da-4895-b6bb-f4e9826362cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TBoardBrick.cpp">
+      <Filter>Game\Play State</Filter>
+    </ClCompile>
+    <ClCompile Include="TBoardBrickFactory.cpp">
+      <Filter>Game\Play State</Filter>
+    </ClCompile>
+    <ClCompile Include="TGameBoard.cpp">
+      <Filter>Game\Play State</Filter>
+    </ClCompile>
+    <ClCompile Include="TGamePlay.cpp">
+      <Filter>Game\Play State</Filter>
+    </ClCompile>
+    <ClCompile Include="TBoardBrickI.cpp">
+      <Filter>Game\Play State\Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="TBoardBrickZ.cpp">
+      <Filter>Game\Play State\Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="TGameManager.cpp">
+      <Filter>Game\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="TGameMenu.cpp">
+      <Filter>Game\Menu State</Filter>
+    </ClCompile>
+    <ClCompile Include="TGameMenuCredits.cpp">
+      <Filter>Game\Menu State</Filter>
+    </ClCompile>
+    <ClCompile Include="TGameMenuHScore.cpp">
+      <Filter>Game\Menu State</Filter>
+    </ClCompile>
+    <ClCompile Include="TGameMenuMain.cpp">
+      <Filter>Game\Menu State</Filter>
+    </ClCompile>
+    <ClCompile Include="TGameMenuOptions.cpp">
+      <Filter>Game\Menu State</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TBoardBrick.h">
+      <Filter>Game\Play State</Filter>
+    </ClInclude>
+    <ClInclude Include="TBoardBrickFactory.h">
+      <Filter>Game\Play State</Filter>
+    </ClInclude>
+    <ClInclude Include="TGameBoard.h">
+      <Filter>Game\Play State</Filter>
+    </ClInclude>
+    <ClInclude Include="TGamePlay.h">
+      <Filter>Game\Play State</Filter>
+    </ClInclude>
+    <ClInclude Include="TGamePlayGlobals.h">
+      <Filter>Game\Play State</Filter>
+    </ClInclude>
+    <ClInclude Include="TBoardBrickI.h">
+      <Filter>Game\Play State\Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="TBoardBrickZ.h">
+      <Filter>Game\Play State\Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="TGameManager.h">
+      <Filter>Game\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="TGameState.h">
+      <Filter>Game\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="TGameMenu.h">
+      <Filter>Game\Menu State</Filter>
+    </ClInclude>
+    <ClInclude Include="TGameMenuCredits.h">
+      <Filter>Game\Menu State</Filter>
+    </ClInclude>
+    <ClInclude Include="TGameMenuHScore.h">
+      <Filter>Game\Menu State</Filter>
+    </ClInclude>
+    <ClInclude Include="TGameMenuMain.h">
+      <Filter>Game\Menu State</Filter>
+    </ClInclude>
+    <ClInclude Include="TGameMenuOptions.h">
+      <Filter>Game\Menu State</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="backup.txt" />
+  </ItemGroup>
+</Project>
