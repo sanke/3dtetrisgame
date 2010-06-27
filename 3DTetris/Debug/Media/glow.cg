@@ -1,0 +1,13 @@
+void renderTarget_fp(
+			float2 uv			: TEXCOORD0,
+			out float4 color		: COLOR,	
+			uniform sampler2D RT : register(s0))
+{
+	color = tex2D(RT, uv);
+	float2 vtc = float2( 1.0 - 0.5 );
+	float vignette = pow( 1 - ( dot( vtc, vtc ) * 1.0 ), 2.0 );
+	float rawColor = color.r + color.b + color.g;
+	float4 exposed = 1.0 - pow( 2.71, -( vignette * rawColor * 2.0 ) );
+	color = exposed;
+}
+
